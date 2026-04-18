@@ -1,19 +1,19 @@
 const TEACHERS = [
-  { emoji: '👨‍🏫', name: 'Md. Kamaluddin',  role: 'Principal',      roleColor: 'navy',    avatarColor: 'navy',    qual: 'M.Ed — University of Dhaka' },
-  { emoji: '👩‍🔬', name: 'Fatema Akter',    role: 'Science HOD',    roleColor: 'forest',  avatarColor: 'forest',  qual: 'M.Sc Physics, BUET' },
-  { emoji: '👨‍💻', name: 'Arif Hossain',    role: 'Mathematics',    roleColor: 'crimson', avatarColor: 'crimson', qual: 'M.Sc Mathematics, DU' },
-  { emoji: '👩‍🎨', name: 'Nusrat Jahan',    role: 'Bangla & Arts',  roleColor: 'gold',    avatarColor: 'gold',    qual: 'M.A Bangla Literature' },
-  { emoji: '👨‍🌍', name: 'Kamrul Islam',    role: 'English & ICT',  roleColor: 'navy',    avatarColor: 'navy',    qual: 'M.A English, SUST' },
-  { emoji: '👩‍🏫', name: 'Rohima Khatun',   role: 'Social Studies', roleColor: 'forest',  avatarColor: 'forest',  qual: 'M.SS, Jahangirnagar Uni.' },
-  { emoji: '👨‍⚕️', name: 'Dr. Alam Sarker', role: 'Biology',         roleColor: 'crimson', avatarColor: 'crimson', qual: 'PhD Life Sciences, DU' },
-  { emoji: '👩‍💼', name: 'Shirin Akter',    role: 'Counselor',      roleColor: 'gold',    avatarColor: 'gold',    qual: 'M.A Psychology, RU' },
+  { emoji: '👨‍🏫', name: 'Md Abul Hossen Abir', role: 'Principal', roleColor: 'navy', avatarColor: 'navy', qual: 'M.Ed — University of Dhaka' },
+  { emoji: '👩‍🔬', name: 'Nazmul Sarkar', role: 'Science HOD', roleColor: 'forest', avatarColor: 'forest', qual: 'M.Sc Physics, BUET' },
+  { emoji: '👨‍💻', name: 'Abu Hashem', role: 'Mathematics', roleColor: 'crimson', avatarColor: 'crimson', qual: 'M.Sc Mathematics, DU' },
+  { emoji: '👩‍🎨', name: 'Mst Shaila', role: 'Bangla & Arts', roleColor: 'gold', avatarColor: 'gold', qual: 'M.A Bangla Literature' },
+  { emoji: '👨‍🌍', name: 'Sayed Hasan Dipto', role: 'English & ICT', roleColor: 'navy', avatarColor: 'navy', qual: 'M.A English, SUST' },
+  { emoji: '👩‍🏫', name: 'Abu Sayed Rana', role: 'Social Studies', roleColor: 'forest', avatarColor: 'forest', qual: 'M.SS, Jahangirnagar Uni.' },
+  { emoji: '👨‍⚕️', name: 'Md. Sarwar Hossen Shakil', role: 'Biology', roleColor: 'crimson', avatarColor: 'crimson', qual: 'PhD Life Sciences, DU' },
+  { emoji: '👩‍💼', name: 'Abu Sayed Rana', role: 'Counselor', roleColor: 'gold', avatarColor: 'gold', qual: 'M.A Psychology, RU' },
 ];
 
 const ROLE_COLORS = {
-  navy:    'var(--navy)',
+  navy: 'var(--navy)',
   crimson: 'var(--crimson)',
-  forest:  'var(--forest)',
-  gold:    'var(--gold)',
+  forest: 'var(--forest)',
+  gold: 'var(--gold)',
 };
 
 export default function Teachers() {
