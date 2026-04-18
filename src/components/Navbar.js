@@ -1,6 +1,5 @@
 'use client';
 import { useState, useEffect } from 'react';
-import LogoImg from '../../public/logo.png'
 
 const LINKS = ['home', 'about', 'programs', 'notices', 'teachers', 'gallery', 'contact'];
 

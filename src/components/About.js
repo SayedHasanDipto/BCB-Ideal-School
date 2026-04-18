@@ -32,8 +32,8 @@ export default function About() {
                 onError={(e) => { e.target.style.display = 'none'; }}
               />
               <blockquote className="about__card-main-quote">
-                "জ্ঞান অর্জনই সর্বোত্তম বিনিয়োগ —<br />
-                B.C.B Ideal School সেই পথ আলোকিত করে।"
+                &quot;জ্ঞান অর্জনই সর্বোত্তম বিনিয়োগ —<br />
+                B.C.B Ideal School সেই পথ আলোকিত করে।&quot;
               </blockquote>
             </div>
 
