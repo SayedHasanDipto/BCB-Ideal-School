@@ -29,8 +29,8 @@ export default function Navbar({ onNav }) {
         }} />
         <div className="nav__logo-fallback" style={{ display: 'none' }}>BCB</div>
         <div>
-          <div className="nav__logo-name">B.C.B Ideal School</div>
-          <div className="nav__logo-loc">Bakshiganj, Jamalpur</div>
+          <div className="nav__logo-name max-sm:hidden">B.C.B Ideal School</div>
+          <div className="nav__logo-loc max-sm:hidden">Bakshiganj, Jamalpur</div>
         </div>
       </div>
 

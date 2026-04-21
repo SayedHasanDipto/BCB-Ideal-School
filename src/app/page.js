@@ -31,6 +31,8 @@ export default function HomePage() {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   }, []);
 
+  // alert("Under Development: সাইটটির রক্ষণাবেক্ষণ চলছে। এই মুহূর্তে সকল তথ্যের নির্ভুলতা নিশ্চিত নয়। শীঘ্রই সঠিক তথ্য আপডেট করা হবে।");
+
   return (
     <>
       <Navbar onNav={nav} />
